@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/kayoxity/Chess/issues"
   },
-  "homepage": "https://github.com/kayoxity/Chess#readme"
+  "homepage": "https://github.com/kayoxity/Chess#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
