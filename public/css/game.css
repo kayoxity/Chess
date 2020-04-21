@@ -1,0 +1,41 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#turn {
+    max-width: 451px;
+    max-height: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    border-right: 5px;
+    border: 1px solid black;
+    border-style: inset;
+    text-align: center;
+    background: #ffffff;
+    transition: 0.85s linear;
+}
+
+/* .turnheightlight {
+    background: #a82121;
+    color: #ffffff;
+} */
+
+#game {
+    max-height: 504px;
+    max-height: 504px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 20px auto;
+}
