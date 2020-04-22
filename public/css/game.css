@@ -9,7 +9,7 @@ div *{
 }
 
 #turn {
-    max-width: 451px;
+    max-width: 512px;
     max-height: 30px;
     width: 100%;
     height: 100%;
@@ -17,7 +17,6 @@ div *{
     float: left;
     border-right: 5px;
     border: 1px solid black;
-    border-style: inset;
     text-align: center;
     background: #ffffff;
     transition: 0.85s linear;
@@ -29,15 +28,30 @@ div *{
 } */
 
 #game {
-    max-height: 504px;
-    max-width: 504px;
+    max-height: 512px;
+    max-width: 512px;
     position: relative;
     margin: 20px auto;
 }
 
-.cellprefix {
-    max-width: 20px;
-    max-width: 20px;
-    width: 100%;
-    height: 100%;
+.white {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid grey;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.grey {
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    border: 1px solid grey;
+    display: inline-block;
+    float: left;
+    border-radius: 5px;
+    margin: 2px;
 }
